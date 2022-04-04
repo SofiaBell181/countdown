@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    }
+    
+    #head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    }
+
+    h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 0.15rem;
+    line-height: 5rem;
+    font-weight: 200;  
+    color: #fff;
+    margin-bottom: 20px;
+    }
+
+    .par{
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    h2{
+    font-size: 40px;
+    letter-spacing: 0.15rem;
+    line-height: 5rem;
+    font-weight: 800;
+    color: #fff; 
+    text-align: center;
+    }
+
+    #main {
+    min-height: 100%;
+    background-size: cover;
+    background-image: url('solareclipce.jpg');
+    }
+
+    #container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    }
+    
+    #module_inner {
+    background: linear-gradient(153deg, rgba(255, 224, 50, 0.644) 12%, rgba(222, 114, 13, 0.671) 54%);
+    border: none;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    }
+
+    h3 {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 0.15rem;
+    font-weight: 100;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    #module_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    }
+
+    .btn {
+    background-image: url('play.png');
+    width: 33px;
+    height: 33px;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    }
+
+    .pause {
+    background-image: url("pause.png"); 
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    }
+    
+    .parDay, .parHour, .parMinute, .parSecond {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 0.15rem;
+    font-weight: 100;
+    line-height: 2.3rem;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    #solar_eclipce {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+    background-color: #a4724c8f;
+    margin-top: 50px;
+    }
+    
+    .solar_par {
+        font-size: 13px;
+        font-weight: 100;
+        color: #fff;  
+        text-align: center;
+    }
+
+    #footer {
+        background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        font-size: 12px;
+        margin-top: 100px;
+    }
+
+    .parStyle {
+        font-size: 13px;
+        margin: 0 20px 10px 20px;
+    }
+
+
+    @media all and (max-width:1000px) {
+    #module_inner {
+        margin: 20px;
+    }
+    }
+
+    @media all and (max-width:500px) {
+
+    h1 {
+        font-size: 30px;
+        line-height: 3rem;
+    }
+
+    .par {
+        font-size: 11px;
+        letter-spacing: 0.1rem;
+        line-height: 1.1rem;
+    }
+
+    #module_inner {
+        height: 140px;
+        width: 150px;
+    }
+
+    h3 {
+        font-size: 25px;
+        letter-spacing: 0.15rem;
+    }
+
+    .parDay, .parHour, .parMinute, .parSecond {
+        font-size: 25px;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+    }
+
+    #container {
+        margin-top: 10px;
+    }
+
+
+    .solar_par {
+        font-size: 10px;
+    }
+
+    #solar_eclipce {
+        margin-top: 10px;
+    }
+
+    }
