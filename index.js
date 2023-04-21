@@ -27,7 +27,7 @@ gsap.from('#solar_eclipce', 2.5, {
 
 
 function concertCountDown() {
-    const concertDate = new Date('April 20, 2023 04:16');
+    const concertDate = new Date('April 08, 2024 04:16');
     const now = new Date();
     const diff = concertDate - now;
     
